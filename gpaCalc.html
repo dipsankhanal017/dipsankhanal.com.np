@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>GPA Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+            <div class="marks">
+                <form>
+                    <table>
+                        <tr>
+                            <th>S.N.</th>
+                            <th>Subjet Name</th>
+                            <th>Theroy</th>
+                            <th>Internal</th>
+                            <th>External</th>
+                            <th>Over all</th>
+                        </tr>
+                        <tr>
+                            <td>1.</td>
+                            <td>DSA</td>
+                            <td><input type="number" id="theory1" min="0" max="60" required></td>
+                            <td><input type="number" id="internal1" min="0" max="20" required></td>
+                            <td><input type="number" id="ext1" min="0" max="20" required></td>
+                            <td id="overall1"></td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>CA</td>
+                            <td><input type="number" id="theory2" min="0" max="60" required></td>
+                            <td><input type="number" id="internal2" min="0" max="20" required></td>
+                            <td><input type="number" id="ext2" min="0" max="20" required></td>
+                            <td id="overall2"></td>
+                        </tr>
+                        <tr>
+                            <td>3.</td>
+                            <td>Stat II</td>
+                            <td><input type="number" id="theory3" min="0" max="60" required></td>
+                            <td><input type="number" id="internal3" min="0" max="20" required></td>
+                            <td><input type="number" id="ext3" min="0" max="20" required></td>
+                            <td id="overall3"></td>
+                        </tr>
+                        <tr>
+                            <td>4.</td>
+                            <td>NM</td>
+                            <td><input type="number" id="theory4" min="0" max="60" required></td>
+                            <td><input type="number" id="internal4" min="0" max="20" required></td>
+                            <td><input type="number" id="ext4" min="0" max="20" required></td>
+                            <td id="overall4"></td>
+                        </tr>
+                        <tr>
+                            <td>5.</td>
+                            <td>GD</td>
+                            <td><input type="number" id="theory5" min="0" max="60" required></td>
+                            <td><input type="number" id="internal5" min="0" max="20" required></td>
+                            <td><input type="number" id="ext5" min="0" max="20" required></td>
+                            <td id="overall5"></td>
+                        </tr>
+                    </table>
+                    <button id="button1">Calculate</button>      <h7 id="result">Overall</h7>
+                </form>
+               
+            </div>
+        
+    </body>
+    <script src="script.js"></script>
+</html>
